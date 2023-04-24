@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<GridPane hgap="8.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.targetheartratecalculatorapp.TargetHeartController">
+<GridPane hgap="8.0" prefHeight="129.0" prefWidth="370.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.targetheartratecalculatorapp.TargetHeartController">
     <columnConstraints>
         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -35,15 +35,12 @@
                 <Insets />
             </GridPane.margin>
         </TextField>
-        <Label fx:id="ageLabel" text="Age">
+        <Label fx:id="ageLabel" alignment="BOTTOM_RIGHT" contentDisplay="RIGHT" text="Age">
             <GridPane.margin>
                 <Insets />
             </GridPane.margin>
-            <padding>
-                <Insets top="10.0" />
-            </padding>
         </Label>
-        <Label fx:id="maxHRLabel" text="Maximum Heart Rate " GridPane.rowIndex="1">
+        <Label fx:id="maxHRLabel" contentDisplay="RIGHT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" text="Maximum Heart Rate " GridPane.rowIndex="1">
             <GridPane.margin>
                 <Insets />
             </GridPane.margin>
